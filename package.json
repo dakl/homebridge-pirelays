@@ -1,8 +1,8 @@
 {
   "name": "homebridge-fakebulb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fake bulb plugin for homebridge: https://github.com/nfarina/homebridge",
-  "license": "Apache",
+  "license": "MIT",
   "keywords": [
     "homebridge-plugin"
   ],
@@ -12,6 +12,10 @@
   },
   "author": {
     "name": "Sergey Chemishkian"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/schemish/homebridge-fakebulb.git"
   },
   "dependencies": {
     "request": "^2.65.0"
