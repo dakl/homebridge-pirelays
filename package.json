@@ -1,0 +1,19 @@
+{
+  "name": "homebridge-fakebulb",
+  "version": "0.0.1",
+  "description": "Fake bulb plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "Apache",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "Sergey Chemishkian"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
+  }
+}
