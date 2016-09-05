@@ -1,6 +1,16 @@
-# homebridge-fakebulb
+# homebridge-pirelays
 
-Simulates a (fake) light bulb device on HomeBridge Platform
+Controls relays (or whatever is hooked up to GPIO pins) with a Raspberry Pi using HomeKit. "Hey Siri, turn off the lights in the window".
+
+# Hardware
+
+The hardware is quite simple.
+
+1. Raspberry Pi 3
+2. 4-relay module hooked up to 4 GPIO pins. 
+3. 4 cut off extension cords, hooked up to the relays
+
+The raspi can then control the state of the things hooked up the extension cords. 
 
 # Installation
 
