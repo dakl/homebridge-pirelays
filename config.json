@@ -1,0 +1,35 @@
+{
+    "bridge": {
+        "name": "RelayServer",
+        "username": "CC:22:3D:E3:CE:FA",
+        "port": 51826,
+        "pin": "031-45-155"
+    },
+
+    "description": "Quad-switch HomeKit Box",
+
+    "accessories": [
+        {
+            "accessory":      "Switch",
+            "name":           "Switch 1",
+            "pin": 11
+        },
+        {
+            "accessory":      "Switch",
+            "name":           "Switch 2",
+            "pin": 12
+        },
+        {
+            "accessory":      "Switch",
+            "name":           "Switch 3",
+            "pin": 13
+        },
+        {
+            "accessory":      "Switch",
+            "name":           "Switch 4",
+            "pin": 15
+        }
+    ],
+
+    "platforms": []
+}
